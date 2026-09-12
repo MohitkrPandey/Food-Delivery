@@ -1,16 +1,112 @@
-# React + Vite
+# 🍔 Food-1on1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive food delivery web application built with **React**, **Redux Toolkit**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+Users can browse food items, filter by category, add items to the cart, manage quantities, and view the order summary.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+You can try the live application here:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**[Food-1on1 — Live Demo](https://food-1on1.netlify.app/)**
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🍕 Browse available food items
+* 🔍 Search for food items
+* 🥗 Filter food by category
+* 🛒 Add items to cart
+* ➕ Increase item quantity
+* ➖ Decrease item quantity
+* 🗑️ Remove items from cart
+* 💰 Automatic subtotal, delivery fee, tax, and total calculation
+* 🔔 Toast notifications when items are added
+* 📱 Responsive design
+
+## 🛠️ Tech Stack
+
+* **React**
+* **Redux Toolkit**
+* **React Redux**
+* **Tailwind CSS**
+* **React Icons**
+* **React Toastify**
+* **Vite**
+* **Netlify** — Deployment
+
+## 📦 Run the Project Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR-USERNAME/food-1on1.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd food-1on1
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+The terminal will provide a local URL, usually:
+
+```text
+http://localhost:5173/
+```
+
+Open that URL in your browser to view the application locally.
+
+## 🏗️ Build for Production
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## 📂 Project Structure
+
+```text
+food-1on1/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── redux/
+│   ├── store/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## 🌐 Live Application
+
+The application is deployed using Netlify.
+
+👉 **[Visit Food-1on1](https://food-1on1.netlify.app/)**
+
+## 👨‍💻 Author
+
+Developed as a React project to practice frontend development, state management with Redux Toolkit, and responsive UI design.
