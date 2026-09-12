@@ -21,7 +21,7 @@ const CartCard = ({id,name,image,price,qty}) => {
             <span className="w-[40%] h-full bg-slate-200 flex justify-center items-center text-green-400">
               {qty}
             </span>
-            <button className="w-[30%] h-full bg-white justify-center items-center text-green-400  hover:bg-gray-200  cursor-pointer" onClick={()=>(dispatch(cartActions.DecrementItems(id)))}>
+            <button className="w-[30%] h-full bg-white justify-center items-center text-green-400  hover:bg-gray-200  cursor-pointer" onClick={()=>qty>1?(dispatch(cartActions.DecrementItems(id))):qty}>
               -
             </button>
           </div>

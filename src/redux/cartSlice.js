@@ -26,9 +26,9 @@ const cartSlice=createSlice({
     },
 
     DecrementItems:(state,action)=>{
-      if(state.qty>0){
+    
       return state.map((item)=>(item.id===action.payload?{...item,qty:item.qty-1}:item));
-      }
+      
 
     }
 
